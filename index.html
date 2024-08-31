@@ -20,13 +20,13 @@
                                 <a href="index.html">Home</a>
                             </li>
                             <li>
-                                 <a href="">About us</a>
+                                 <a href="#About us">About us</a>
                             </li>
                             <li>
-                                <a href="#">Products</a>
+                                <a href="#product">Products</a>
                             </li>
                             <li>
-                                 <a href="">Contact us</a>
+                                 <a href="#contact">Contact us</a>
                             </li>
                             <li>
                                  <a class="btn-light" href="#">Get started</a>
@@ -34,9 +34,37 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
+                   <!--hamburger button-->
+         <button id = "hamburger-button" class="hamburger-button">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu ">
+            <ul>
+                <li>
+                    <a class="mobile-links" href="index.html">Home </a>
+                </li>
+                <li>
+                    <a class="mobile-links" href="#About us">About us </a>
+                </li> 
+                <li>
+                    <a class="mobile-links" href="#product">Product</a>
+                </li>   
+                <li>
+                    <a class="mobile-links" href="#contact">Contact us</a>
+                </li>
+                <!-- <li>
+                    <a class="btn-light" href="#">Get started</a>
+               </li> -->
+            </ul>
         </div>
-    </header>
+    </div>
+            </div>
+         
+        </div>
+        
+    </header> 
 
     <!-- HERO SECTION--> 
     <section class="hero">
@@ -48,33 +76,33 @@
         <a class="hero-button" href="#">Get started Today</a>
     </section>
     <!-- About us -->
-    <section class="aboutus">
+    <section id = "About us" class="aboutus">
         <h4 class="about-header text-lg">Who We Are</h4>
         <div class="flex">
             <p class="about-text text-md">
                 Solar Tech Innovations & Energy Solutions 
                 establidhed in 2010, is committed to offering sustainable energy
                 solutions with the goal of making solar energy both accessable and 
-                affordable for everyone , ensuring that the transition to a cleaner,
+                affordable for everyone, ensuring that the transition to a cleaner,
                 greener Future is within reach for all.  
             </p>
             <div class="aside">
                 <p class="numbers ">150 +</p>
-                <span class="figures">solar Installed</span>
+                <p class="figures">solar Installed</p>
                 <p class="numbers">98%</p>
-                <span class="figures">Satisfied Customers</span>
+                <p class="figures">Satisfied Customers</p>
                 <p class="numbers">100 +</p>
-                <span class="figures">Products Launched</span>
+                <p class="figures">Products Launched</p>
             </div>
         </div>
 
     </section>
 
-    <section class="services">
+    <section id = "services" class="services">
         <h4 class="services-header text-lg">Our Services</h4>
         <div class="content">
             <div class="card">
-                <img src="images/solar-services image.jpg" class="image" width="400" height="300"
+                <img src="images/solar-services image.jpg" class="image"
                  alt="solar image">
                 <h4 class="card-bold">Residential Solar Solution</h4>
                 <p class="card-text">
@@ -83,7 +111,7 @@
                 </p>
             </div>
             <div class="card">
-                <img src="images/solar-panel-image.jpeg" class="image" width="450" height="300"
+                <img src="images/solar-panel-image.jpeg" class="image" 
                  alt="solar image">
                 <h4 class="card-bold">Commercial Solar Solutions</h4>
                 <p class="card-text">
@@ -94,7 +122,7 @@
             </div>
 
             <div class="card">
-                <img src="images/ solar-services-mages.jpeg" class="image" width="400" height="300"
+                <img src="images/ solar-services-mages.jpeg" class="image" 
                  alt="solar image">
                 <h4 class="card-bold">Solar Panel Installations</h4>
                 <p class="card-text">
@@ -104,24 +132,24 @@
             </div>
         </div>
     </section>
-    <section class="product">
+    <section id = "product" class="product">
         <h4 class="product-header text-lg">Explore Our Products</h4>
         <div class="product-content">
             <figure>
                 <img src="images/product-image-1.webp" class="product-image"
-                width="400" height="300" alt="product">
+                   alt="product">  
                 <figcaption>Foldable Solar Panel</figcaption>
                 <span class="price">$ 450</span>
             </figure>
             <figure>
                 <img src="images/product-image2.jpeg" class="product-image"
-                width="450" height="300" alt="product">
+                 alt="product">
                 <figcaption>Home Solar Panel</figcaption>
                 <span class="price">$ 650</span>
             </figure>
             <figure>
                 <img src="images/product-solar-panels-3.jpeg" class="product-image"
-                width="400" height="300" alt="product">
+                 alt="product">
                 <figcaption>Commercial Solar Panel</figcaption>
                 <span class="price">$ 1000</span>
             </figure>
@@ -147,7 +175,7 @@
             </div>
         </div>
     </section> -->
-    <section class="contact-us">
+    <section id = "contact" class="contact-us">
         <div class="contact-content">
             <p class="contact-text">
                 Ready to Switch to Solar? <br>
@@ -156,13 +184,13 @@
             <a class="btn-light btn" href="#">Contact Us</a>
         </div>
         <div class="contact-img">
-            <img src="images/contact-us-solar.jpg" width="" height="" alt="contact image">
+            <img src="images/contact-us-solar.jpg" class="contacts-img" alt="contact image">
         </div>
         
     </section>
     <footer>
         <div class="footer-container">
-            <div class="logo">
+            <div class="footer-logo">
                 <h6>Solar Tech Innovation</h6>
             </div>
             <div class="company-section">
@@ -195,6 +223,6 @@
     </footer>
     
 
-    
+    <script src="script.js"></script>
 </body>
 </html>
