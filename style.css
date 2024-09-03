@@ -377,6 +377,7 @@ figure {
 @media (max-width: 670px) {
     body {
         overflow-x: hidden;
+        overflow-x: clip ! important;
         margin: 0;
         padding: 0;
     }
