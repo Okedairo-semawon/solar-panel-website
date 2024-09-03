@@ -315,22 +315,19 @@ figure {
 
   /* hamburger button */
   .hamburger-button {
-    /* position: fixed; */
     display: none;
     background: none;
     cursor: pointer;
     border: none;
-    padding-right: 20px;
+    padding-right: 15px;
     z-index: 1000;
-    /* position: fixed; */
     right: 0px;
     margin-top: 20px;
     
 }
 .hamburger-button .hamburger-line {
     background: black;
-    /* position: fixed; */
-    right: 95px;
+    right: 90px;
     width: 30px;
     height: 3px;
     margin: 6px 0;
@@ -341,7 +338,7 @@ figure {
 .mobile-menu {
     position: fixed;
     top: 0px;
-    right: -400px;
+    right: -300px;
     width: 210px;
     height: 100%;
     z-index: 100;
