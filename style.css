@@ -439,6 +439,9 @@ figure {
     }
 
     /* About us */
+    .aboutus {
+        scroll-margin-top: 80px;
+    }
     .flex {
         display: flex;
         flex-direction: column;
@@ -467,6 +470,9 @@ figure {
     }
 
     /* services */
+    .services {
+        scroll-margin-top: 20px;
+    }
     .content {
         display: flex;
         flex-wrap: wrap;
@@ -491,6 +497,9 @@ figure {
     }
 
     /* products */
+    .product {
+        scroll-margin-top: 80px;
+    }
     .product-content {
         display: flex;
         flex-wrap: wrap;
@@ -541,6 +550,7 @@ figure {
         flex-direction: column;
         justify-content: center top;
         height: 550px;
+        scroll-margin-top: 50px;
     }
     .contact-img {
         position: relative;
